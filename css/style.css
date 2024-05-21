@@ -1,0 +1,110 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background-color: #E5E5E5;
+}
+.top-bar{
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+}
+.top-bar a{
+	color: white;
+}
+.top-bar a:hover{
+	color: #FFC113;
+}
+.navbar .navbar-nav .nav-item .nav-link:hover{
+	color: #056CB6;
+}
+.navbar .navbar-nav .nav-item .dropdown-menu{
+	background-color: #056CB6;
+	padding-bottom: 0;
+	padding-top: 0;
+}
+.navbar .navbar-nav .nav-item .dropdown-menu .dropdown-item{
+	color: white;
+}
+.navbar .navbar-nav .nav-item .dropdown-menu li{
+	border-bottom: 1px solid white;
+}
+.navbar .navbar-nav .nav-item .dropdown-menu .dropdown-item:hover{
+	background-color: #FFC113;
+}
+main{
+	width: 100%;
+	min-height: 500px;
+}
+footer{
+	width: 100%;
+	min-height: 200px;
+}
+.gach-chan{
+	border-bottom: 2px solid #FFC113;
+}
+footer .navbar-nav .nav-item .nav-link:hover{
+	color: #FFC113;
+}
+#service a{
+	text-decoration: none;
+	color: #4D4D4D;
+}
+#service a:hover{
+	color: #FFC113;
+}
+#why{
+	width: 100%;
+    min-height: 400px;
+	background-image: url("../images/why.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.hinh{
+	width: 100%;
+	position: relative;
+}
+.truoc{
+	position: absolute;
+	left: 0;
+	top: 0;
+	padding: 8px;
+	background-color: rgba(204,204,204,0.50);
+}
+.sau{
+	position: absolute;
+	left: 50%;
+	top: 0;
+	padding: 8px;
+	background-color: rgba(204,204,204,0.50;
+}
+#cam-nhan .noi-dung{
+	text-align: center;
+	padding: 10px 30px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+#cam-nhan .noi-dung img{
+	width: 80px;
+	height: 80px;
+}
+#cn .owl-nav { position:absolute; left:0px; top:40%; width:100%; }
+#cn .owl-nav [class*='owl-'] {
+	font-size:60px; /*background:rgba(255,255,255,.5);border:1px solid #fff; */ color: #666666
+}
+
+#cn .owl-nav .owl-next{ position:absolute; right:5%;}
+#cn .owl-nav .owl-prev{ position:absolute; left:5%;}
+#cn .owl-nav [class*='owl-']:hover {
+      background:none;border: none;
+      color: #FFC113;
+      text-decoration: none; }
+#tin-tuc a{
+	text-decoration: none;
+	color: #363636;
+	}
+#tin-tuc a:hover{
+	color: #FFC113;
+	}
